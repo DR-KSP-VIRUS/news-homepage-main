@@ -35,8 +35,8 @@ Users are able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github.com](https://github.com/DR-KSP-VIRUS/news-homepage-main.git)
+- Live Site URL: [news home page live here](https://news-homepage-main-dun.vercel.app/)
 
 ## My process
 I used the following tools to build the projects.
@@ -46,7 +46,7 @@ I used the following tools to build the projects.
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Vue](https://reactjs.org/) - JS library
+- [Vue](https://vuejs.org/) - JS library
 
 ### What I learned
 Using VueJs to build the projects, I learnt more about component distribution. 
@@ -60,9 +60,9 @@ Using VueJs to build the projects, I learnt more about component distribution.
 
 ### Useful resources
 
-- [VueJs](https://www.example.com) - This helped me to understand the workflow and how to write code with vue JS
+- [VueJs](https://vuejs.org/) - This helped me to understand the workflow and how to write code with vue JS
 
 ## Author
 
-- Website - [KONJA KUMA SAMPSON](https://www.your-site.com)
-- Frontend Mentor - [@DR-KSP-VIRUS](https://www.frontendmentor.io/profile/yourusername)
+- Website - [KONJA KUMA SAMPSON](https://news-homepage-main-dun.vercel.app/)
+- Frontend Mentor - [@DR-KSP-VIRUS](https://www.frontendmentor.io/profile/DR-KSP-VIRUS)
