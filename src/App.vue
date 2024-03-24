@@ -1,9 +1,9 @@
 <template>
     <Navigation />
-  <div class="container">
+  <main class="container">
     <BillBoard />
     <ServiceList />
-  </div>
+  </main>
 </template>
 
 <script setup>

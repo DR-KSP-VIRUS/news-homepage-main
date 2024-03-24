@@ -1,20 +1,16 @@
 <template>
-    <figure id="mobile-image">
-        <img src="/images/image-web-3-mobile.jpg" alt="image">
-    </figure>
-    <figure id="desktop-image">
-        <img src="/images/image-web-3-desktop.jpg" alt="image">
-    </figure>
+    <picture >
+        <img id="mobile-image" src="/images/image-web-3-mobile.jpg" alt="mobile-image">
+        <img id="desktop-image" src="/images/image-web-3-desktop.jpg" alt="desktop-image">
+    </picture>
     <div class="text">
-        <div  class="title">
-            <h1>The Bright Future of Web 3.0?</h1>
-        </div>
+        <h1 class="title">The Bright Future of Web 3.0?</h1>
         <div class="text-description">
             <p>
                 We dive into the next evolution o the web that claims to put the power of the platforms back into the hands of the people.
                 But is it really fulfulling its promise?
             </p>
-            <div class="link-more">
+            <div class="read-more">
                 <a href="#">Read More</a>
             </div>
         </div>
@@ -25,29 +21,31 @@
 <style scoped>
     .title {
         font-family: 'Inter-ExtraBold';
-        font-size: 23px;
+        font-size: 3.5rem;
         margin-right: 2rem;
+        margin-bottom: 1rem;
     }
 
     .text-description p {
         color: var(--dark-grayish-blue);
         font-family: 'Inter-Regular';
         line-height: 2rem;
-        font-size: 20px;
+        font-size: 1.19rem;
+        padding-bottom: 1rem;
     }
-    .link-more {
-        margin-top: 2.5rem ;
+    .read-more {
+        margin-top: .5rem ;
     }
-    .link-more a {
+    .read-more a {
         background: var(--soft-red);
         color: var(--off-white);
-        padding: 1rem 2.5rem;
+        padding: .7rem 2.5rem;
         font-family: 'Inter-Bold';
-        letter-spacing: 5px;
+        letter-spacing: .2rem;
         text-transform: uppercase;
         transition: all 0.54s ease-in-out;
     }
-    .link-more a:hover {
+    .read-more a:hover {
         background-color: var(--very-dark-blue);
     }
 </style>

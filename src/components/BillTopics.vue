@@ -16,15 +16,15 @@
 
 <style scoped>
     .topics {
-      padding: 2rem 0;
+      padding: 2rem 0 2.15rem 0;
       border-bottom: 1px solid var(--dark-grayish-blue);
     }
     .topics a {
       color: var(--off-white);
       font-family: 'Inter-Bold';
-      letter-spacing: 1px;
-      font-size: 25px;
-      margin-bottom: 30px;
+      letter-spacing: .1rem;
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
       transition: all 0.54s ease-in-out;
     }
     .topics a:hover {

@@ -23,7 +23,7 @@
         <p class="mobile-menu"  href="#" @click="showSideNav">
             <img src="/images/icon-menu.svg" alt="icon">
         </p>
-        <div class="hide-side-nav" id="side-nav">
+        <div :class="showNav ? 'side-show': 'hide-side-nav'">
           <ul class="side-nav">
             <img @click="closeSideNav" src="/images/icon-menu-close.svg" alt="">
             <li class="side-nav-item">
@@ -48,13 +48,16 @@
 
 <script setup>
 
+  import { ref } from 'vue';
+
+  const showNav = ref(false);
+
   const showSideNav = () => {
-    document.getElementById("side-nav").classList.replace('hide-side-nav','side-show');
-    
+    showNav.value = true;
   }
   
   const closeSideNav = () => {
-    document.getElementById("side-nav").classList.replace('side-show','hide-side-nav');
+    showNav.value = false;
   }
 </script>
 
@@ -93,7 +96,7 @@
     }
 
     .side-nav-item {
-      padding: 1rem 1rem;
+      padding: 1rem;
       margin: 0 0 1rem 1rem;
       cursor: pointer;
       display: flex;
@@ -101,7 +104,7 @@
       font-family: 'Inter-Regular';
       font-size: large;
       transition: all 0.54s ease-in;
-      width: 240px;
+      width: 20rem;
     }
 
     .side-nav-item:hover {
@@ -128,8 +131,8 @@
     .side-nav {
       background: var(--off-white);
       position: absolute;
-      height: 100vh;
-      right: 0px;
+      height: 100%;
+      right: 0;
       display: flex;
       flex-direction: column;
       padding-top: 5rem;

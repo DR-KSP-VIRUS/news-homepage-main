@@ -1,12 +1,12 @@
 <template>
-    <div class="bill-board">
+    <section class="bill-board">
         <div class="left-panel">
             <BillLeftPanel />
         </div>
         <div class="right-panel">
             <BillRightPanel />
         </div>
-    </div>
+    </section>
 </template>
 
 <script setup>

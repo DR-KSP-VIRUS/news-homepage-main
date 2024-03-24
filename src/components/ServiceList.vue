@@ -1,7 +1,7 @@
 <template>
-    <div class="services">
+    <section class="services">
         <Service :services="services"/>
-    </div>
+    </section>
 </template>
 
 <script setup>
