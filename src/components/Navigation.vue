@@ -131,7 +131,7 @@
     .side-nav {
       background: var(--off-white);
       position: absolute;
-      height: 100%;
+      height: 100vh;
       right: 0;
       display: flex;
       flex-direction: column;
